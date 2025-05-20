@@ -3387,7 +3387,7 @@ img.u-pull-left {
  * -------------------------------------------------------------------- */
 .s-intro__bg {
     display             : block;
-    background-image    : url(../images/hero-bg.jpg);
+    background-image    : url(../images/03.jpg);
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : cover;
@@ -3446,7 +3446,7 @@ img.u-pull-left {
 
 .s-intro__content-bg {
     display             : block;
-    background-image    : url(../images/intro-bg.jpg);
+    background-image    : url(../images/01-bg.png);
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : cover;
@@ -3488,31 +3488,6 @@ img.u-pull-left {
 }
 
 .s-intro__content-title::before {
-    display          : block;
-    content          : "";
-    height           : 1px;
-    width            : 7.2rem;
-    background-color : var(--color-1);
-    position         : absolute;
-    top              : 0;
-    left             : 4px;
-}
-
-.s-intro__content-subtitle {
-    --text-title-size : 4.4rem;
-    --text-multiplier : 1;
-    font-weight       : 600;
-    font-size         : calc(var(--text-title-size) * var(--text-multiplier));
-    line-height       : 1.227;
-    color             : white;
-    padding-top       : var(--vspace-0_75);
-    padding-right     : 10vw;
-    margin-top        : 0;
-    margin-bottom     : var(--vspace-2);
-    position          : relative;
-}
-
-.s-intro__content-subtitle::before {
     display          : block;
     content          : "";
     height           : 1px;
@@ -3617,7 +3592,6 @@ img.u-pull-left {
 .s-intro__bg,
 .s-intro__content-bg,
 .s-intro__content-title,
-.s-intro__content-subtitle,
 .s-intro__content-buttons,
 .s-intro__scroll-down {
     transition-timing-function : cubic-bezier(0.28, 0.12, 0.22, 1);
@@ -3637,7 +3611,6 @@ img.u-pull-left {
 
 .s-intro__content-bg,
 .s-intro__content-title,
-.s-intro__content-subtitle,
 .s-intro__content-buttons {
     transition-property : opacity, transform;
     transform           : translate(0, 100%);
